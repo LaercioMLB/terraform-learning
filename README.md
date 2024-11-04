@@ -7,6 +7,8 @@
 
 - 💬 Ask me about **Docker, Ansible and Terraform**
 
+- 🎓Referencies: [Quick Guide configure terraform with GCP](https://cloud.google.com/docs/terraform/install-configure-terraform?hl=pt-br&cloudshell=true#cloud-shell), [Alura](https://www.youtube.com/watch?v=yKnkK4HxW8E)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://instagram.com/laercio_mlb" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="laercio_mlb" height="30" width="40" /></a>
