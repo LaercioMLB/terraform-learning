@@ -1,2 +1,5 @@
 .terraform*
 *.json
+variables.tf
+*.tfstate
+*.backup
