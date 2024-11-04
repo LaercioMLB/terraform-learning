@@ -1,14 +1,14 @@
 provider "google" {
-  credentials = file("gcp-crendentials-laercio-lab.json")
-  project = "superb-blend-439623-u5"
-  region  = "us-cemtral1"
-  zone    = "us-central1-a"
+  credentials = file(var.crendital-file)
+  project = var.provider-project
+  region  = var.provider-region
+  zone    = var.provider-zone
 }
 
 resource "google_compute_instance" "default" {
-  name         = "terraform-openvpn" 
-  machine_type = "e2-medium"
-  zone         = "us-central1-a"      
+  name         = var.vm-name 
+  machine_type = var.vm-machine_type
+  zone         = var.provider-zone      
 
   boot_disk {
     initialize_params {
