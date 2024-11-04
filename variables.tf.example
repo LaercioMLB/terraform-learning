@@ -1,0 +1,30 @@
+#Description as optional
+variable "crendital-file"{
+    type = string
+    description = ""
+    default = ""
+}
+
+variable "provider-project"{
+    type = string
+    description = ""
+    default = ""
+}
+
+variable "provider-region"{
+    type = string
+    description = ""
+    default = ""
+}
+
+variable "vm-name"{
+    type = string
+    description = ""
+    default = ""
+}
+
+variable "vm-machine_type"{
+    type = string
+    description = ""
+    default = ""
+}
