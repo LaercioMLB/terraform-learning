@@ -7,7 +7,7 @@
 
 - 💬 Ask me about **Docker, Ansible and Terraform**
 
-- 🎓Referencies: [Quick Guide configure terraform with GCP](https://cloud.google.com/docs/terraform/install-configure-terraform?hl=pt-br&cloudshell=true#cloud-shell), [Alura](https://www.youtube.com/watch?v=yKnkK4HxW8E)
+- 🎓Referencies: [Quick Guide configure terraform with GCP](https://cloud.google.com/docs/terraform/install-configure-terraform?hl=pt-br&cloudshell=true#cloud-shell), [Alura](https://www.youtube.com/watch?v=yKnkK4HxW8E), [Terraform Variables](https://medium.com/@habbema/terraform-variables-e2f46ebe3f32)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
