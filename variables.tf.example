@@ -26,5 +26,7 @@ variable "vm-name"{
 variable "vm-machine_type"{
     type = string
     description = ""
+    #e2-medium = 2cpu + 4gb de RAM
+    #e2-standart-4 = 4cpu + 8gb de RAM    
     default = ""
 }
