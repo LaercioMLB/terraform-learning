@@ -1,32 +1,29 @@
-#Description as optional
-variable "crendital-file"{
-    type = string
-    description = ""
-    default = ""
+variable "vpc_id" {
+  description = "ID da VPC existente"
+  type        = string
+  default     = ""
 }
 
-variable "provider-project"{
-    type = string
-    description = ""
-    default = ""
+variable "subnet_id" {
+  description = "ID da Subnet existente dentro da VPC"
+  type        = string
+  default     = ""
 }
 
-variable "provider-region"{
-    type = string
-    description = ""
-    default = ""
+variable "security_group_id" {
+  description = "ID do Security Group existente"
+  type        = string
+  default     = ""
 }
 
-variable "vm-name"{
-    type = string
-    description = ""
-    default = ""
+variable "key_name" {
+  description = "Nome da Key Pair existente para acesso SSH"
+  type        = string
+  default     = ""
 }
 
-variable "vm-machine_type"{
-    type = string
-    description = ""
-    #e2-medium = 2cpu + 4gb de RAM
-    #e2-standard-4 = 4cpu + 8gb de RAM    
-    default = ""
+variable "private_ip" {
+  description = "ip privado da máquina"
+  type        = string
+  default     = ""
 }
