@@ -4,7 +4,7 @@ provider "aws" {
 # Instância EC2
 resource "aws_instance" "ec2_instance" {
   ami           = "ami-0866a3c8686eaeeba" # Substitua pelo ID da AMI desejada  ami-005fc0f236362e99f - PADR1
-  instance_type = "t2.micro"              # Tipo de instância
+  instance_type = "t2.medium"              # Tipo de instância
   key_name      = var.key_name            # Nome do Key Pair já existente
   subnet_id     = var.subnet_id           # Subnet existente
   private_ip    = var.private_ip          # IP privado da instancia
@@ -14,7 +14,7 @@ resource "aws_instance" "ec2_instance" {
   ]
 
   tags = {
-    Name = "MyTerraformEC2"              # Nome da instância
+    Name = "WAZUH1"              # Nome da instância
   }
 }
 
@@ -48,7 +48,7 @@ resource "aws_ebs_volume" "home" {
 }
 
 resource "aws_ebs_volume" "var" {
-  size              = 3
+  size              = 50
   type              = "gp3"
   availability_zone = aws_instance.ec2_instance.availability_zone
   tags = {
@@ -75,7 +75,7 @@ resource "aws_ebs_volume" "var_tmp" {
 }
 
 resource "aws_ebs_volume" "opt" {
-  size              = 12
+  size              = 15
   type              = "gp3"
   availability_zone = aws_instance.ec2_instance.availability_zone
   tags = {
